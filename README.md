@@ -15,3 +15,8 @@ Developed as part of the FDM training curriculum, emphasizing backend design, da
 - Initial EF Core migrations and database seeding
 - Authentication/Authorization scaffolding (JWT)
 - API endpoints exposed for testing via Swagger
+
+🧩 Lessons Learned
+- Practiced clean architecture layering
+- Improved understanding of EF Core migrations
+- Hands-on Git collaboration during group development

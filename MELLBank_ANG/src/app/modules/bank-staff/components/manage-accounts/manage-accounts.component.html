@@ -1,0 +1,26 @@
+<h2>Account Management</h2>
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Full Name</th>
+        <th>Accounts</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customers">
+        <td>{{ customer.customerId }}</td>
+        <td>{{ customer.firstName+" "+customer.lastName }}</td>
+        <td>
+          <button (click)="viewSavings(customer.customerId)">Savings</button>
+          <!-- <button (click)="">Current</button> -->
+          <button (click)="viewCurrent(customer.customerId)">Current</button>
+          <!-- <button (click)="viewAll(customer.customerId)">All</button> -->
+
+          <button>All</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

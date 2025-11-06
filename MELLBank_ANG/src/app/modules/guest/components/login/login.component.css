@@ -1,0 +1,95 @@
+main {
+background-color: #B6D5E7;
+padding: 50px 0;
+text-align: center;
+}
+
+.login-form h2 {
+color: #3A4F64;
+}
+
+.login-form {
+background-color: #C4DFF0;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input {
+padding: 10px;
+border: 1px solid #A9CADC;
+border-radius: 5px;
+}
+
+.login-form button {
+background-color: #387691;
+width: 100%;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.login-form button:hover {
+background-color: #526B7F;
+}
+
+.login-form p {
+text-align: center;
+margin-top: 20px;
+}
+
+.login-form a {
+color: #3A4F64;
+text-decoration: none;
+font-weight: bold;
+}
+
+.login-form a:hover {
+color: #387691;
+}
+
+.text-danger {
+font-size: 0.875em;
+color: #ff0000;
+}
+
+
+/*
+=============================================================================
+                                Hero Section Styles
+=============================================================================
+*/
+.hero {
+  height: 87vh;
+  background: var(--color6);
+  background: linear-gradient(145deg, #ffffff, var(--color5));
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.1),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.hero-content {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 2rem;
+  /* backdrop-filter: blur(10px); */
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.1),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-images img {
+  max-width: 100%;
+}
+

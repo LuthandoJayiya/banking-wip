@@ -1,0 +1,101 @@
+:root {
+    --color1: #b6d5e7; /* Light Blue */
+    --color2: #526b7f; /* Dark Blue */
+    --color3: #3a4f64; /* Grayish Blue */
+    --color4: #387691; /* Teal */
+    --color5: #a9cadc; /* Light Teal */
+    --color6: #c4dff0; /* Lighter Blue */
+  }
+.navbar {
+    width: 250px;
+    height: auto;
+    background-color:var(--color4);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.3s;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .navbar.closed {
+    width: 80px;
+    padding: 20px 10px;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar .logo i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .navbar .nav-links li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+  }
+  
+  .navbar .nav-links li i {
+    margin-right: 10px;
+  }
+  
+  .navbar .nav-links li.active {
+    background-color: var(--color3);
+    border: 1px solid #fff;
+  }
+  
+  .navbar .nav-links li:hover {
+    background-color: var(--color5);
+    color: #333;
+  }
+  
+  .navbar .toggle-btn {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .navbar .toggle-btn i {
+    font-size: 24px;
+  }
+  
+  .navbar .toggle-btn:hover {
+    color: #ccc;
+  }
+  .staff-layout {
+    display: flex;
+  }
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  hr{
+    background-color: #333;
+  }
+  .others-section{
+    margin-top: 50px;
+  }
+  .staff-layout{
+    height: 100%;
+  }

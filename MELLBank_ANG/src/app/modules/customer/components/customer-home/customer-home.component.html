@@ -1,0 +1,54 @@
+<div class="container-fluid customer-home">
+  <div class="row">
+    <!-- Main Content -->
+    <main class="col-md-10 ml-sm-auto col-lg-10 px-4 main-content">
+      <header class="d-flex text-black justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2 text-white">Welcome to MELLBANK</h1>
+        <p class="text-white">Hi, {{ fullName }}. Welcome Back.</p>
+      </header>
+      <div class="row">
+        <div class="col-md-12 mb-4" *ngFor="let account of accounts">
+          <div class="card bg-dark text-white mb-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h2 class="card-title">{{ account.accountType }} Account</h2>
+                  <hr>
+                  <div class="credit-card bg-secondary p-3 rounded">
+                    <div class="card-type">{{ account.accountType }}</div>
+                    <div class="card-name">MELLBANK</div>
+                    <div class="chip">
+                      <img src="assets/images/kisspng-integrated-circuits-chips-smart-card-computer-ic-chip-5abc26ec39a441.9442861815222801722361.png" alt="chip" width="50" height="50" />
+                    </div>
+                    <div class="tap-icon">
+                      <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="card-number">{{ account.accountNumber }}</div>
+                    <div class="card-owner">{{ fullName }}</div>
+                    <img src="assets/images/Logo-VISA-transparent-PNG.png" alt="Visa Logo" class="visa-logo" />
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <h2 class="card-title">Balance</h2>
+                  <p class="balance display-4">R{{ account.balance | number:'1.2-2' }}</p>
+                  <p>{{ account.creationDate | date:'longDate' }} - {{ account.creationDate | date:'shortTime' }}</p>
+                  <div class="d-flex justify-content-around">
+                    <button class="btn btn-info" [routerLink]="['/customer/withdraw', account.accountId]">
+                      <i class="fas fa-paper-plane"></i> Withdraw
+                    </button>
+                    <button class="btn btn-info" [routerLink]="['/customer/deposit', account.accountId]">
+                        <i class="fas fa-money-bill-wave"></i> Deposit
+                      </button>
+                    <button class="btn btn-info" [routerLink]="['/customer/viewtransactions']">
+                      <i class="fa-regular fa-eye"></i> View Transactions
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+/* Global CSS Variables */
+:root {
+  --color1: #b6d5e7; /* Light Blue */
+  --color2: #526b7f; /* Dark Blue */
+  --color3: #3a4f64; /* Grayish Blue */
+  --color4: #387691; /* Teal */
+  --color5: #a9cadc; /* Light Teal */
+  --color6: #c4dff0; /* Lighter Blue */
+}
+
+/*Global Button style*/
+.btn {
+  margin: 5px;
+}
+
+/* Body Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background: #f0f0f3;
+  color: #333;
+}
+
+
+.btn-primary {
+  background-color: var(--color3) !important;
+  color: #ffffff !important;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: var(--color4) !important;
+}
+
+.btn-primary a {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+

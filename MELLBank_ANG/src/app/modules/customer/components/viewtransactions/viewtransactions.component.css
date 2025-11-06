@@ -1,0 +1,153 @@
+.container {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    background-color: #C4DFF0; /* Columbia Blue background */
+  }
+
+  header {
+    grid-area: header;
+    background: #B6D5E7; /* Columbia Blue */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #3A4F64; /* Charcoal */
+  }
+
+  header .logout {
+    background-color: #387691; /* Cerulean */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  header .logout:hover {
+    background-color: #3A4F64; /* Charcoal */
+  }
+
+  .main-content {
+    grid-area: main;
+    padding: 10px;
+  }
+
+  .transactions-history {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .transactions-list {
+    border: 1px solid #387691; /* Cerulean */
+    padding: 10px;
+    background-color: #A9CADC; /* Columbia Blue */
+    margin-top: 10px;
+  }
+
+  .transactions-list table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+
+  .transactions-list th, .transactions-list td {
+    border: 1px solid #3A4F64; /* Charcoal */
+    padding: 8px;
+    text-align: left;
+  }
+
+  /* .balance-info {
+    border: 1px solid #387691; /* Cerulean */
+    /* padding: 10px;
+    background-color: #A9CADC; /* Columbia Blue */
+    /* margin-top: 10px; */
+  /* } */
+
+  footer {
+    grid-area: footer;
+    background: #B6D5E7; /* Columbia Blue */
+    padding: 10px;
+    text-align: center;
+  }
+.main-content {
+  margin-left: 190px;
+}
+.text-black{
+  color: black;
+}
+.credit-card {
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.credit-card .chip {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.credit-card .tap-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 28%;
+  left: 82px;
+  transform: translateY(-50%);
+  color: var(--color1);
+  font-size: 24px;
+  transform: rotate(90deg);
+}
+
+.credit-card .card-number {
+  font-size: 20px;
+  position: absolute;
+  bottom: 25%;
+  left: 20px;
+}
+
+.credit-card .card-owner {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-weight: bold;
+}
+
+.credit-card .visa-logo {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 60px;
+}
+
+.card-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-type {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.chart {
+  background-color: var(--color4);
+  color: var(--color1);
+}
+ 

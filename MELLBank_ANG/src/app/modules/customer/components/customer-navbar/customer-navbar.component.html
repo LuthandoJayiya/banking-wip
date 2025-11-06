@@ -1,0 +1,53 @@
+<div class="customer-layout">
+  <nav class="col-md-2 bg-dark sidebar">
+    <div class="sidebar-sticky d-flex flex-column justify-content-between">
+      <div>
+        <div class="text-center my-4">
+          <img src="assets/images/bank_logo_transparent.png" alt="MELLBANK Logo"
+            class="img-fluid rounded-circle border border-light" width="80" height="80" />
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white text-center">Main Menu</h4>
+        <hr class="bg-secondary" />
+        <ul class="nav flex-column text-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/customer/home" routerLinkActive="active">
+              <i class="fas fa-chart-line"></i> Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" (click)="comingSoon()">
+              <i class="fas fa-exchange-alt"></i> Transactions
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" (click)="comingSoon()">
+              <i class="fas fa-address-book"></i> Contacts
+            </a>
+          </li>
+        </ul>
+        <h4 class="text-white text-center mt-5">Others</h4>
+        <hr class="bg-secondary" />
+        <ul class="nav flex-column mb-2 text-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" (click)="comingSoon()">
+              <i class="fas fa-cog"></i> Settings
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" role="button" (click)="logout()">
+              <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer text-white text-center mt-auto">
+        <p>&copy; MELLBank, 2024</p>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="content col-md-10">
+  <router-outlet></router-outlet>
+</div>

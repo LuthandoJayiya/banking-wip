@@ -1,0 +1,35 @@
+<div class="bank-home">
+  <h1>Welcome to Your Dashboard</h1>
+  <p>Select an option from the sidebar to get started.</p>
+  <hr>
+
+  <div class="cards-container">
+    <div class="card" routerLink="/bank-staff/transactions">
+      <div class="card-icon">
+        <i class="fas fa-exchange-alt"></i>
+      </div>
+      <div class="card-content">
+        <h2>Transactions</h2>
+        <p>See a list of Transaction made</p>
+      </div>
+    </div>
+    <div class="card" routerLink="{{UserHomeUrl}}/register-customer">
+      <div class="card-icon">
+        <i class="fa-solid fa-user-plus"></i>
+      </div>
+      <div class="card-content">
+        <h3>Register Customer</h3>
+        <p>Register a new customer</p>
+      </div>
+    </div>
+    <div class="card" routerLink="/bank-staff/account-management">
+      <div class="card-icon">
+        <i class="fa-solid fa-bars-progress"></i>
+      </div>
+      <div class="card-content">
+        <h2>Manage Accounts</h2>
+        <p>Manage bank accounts, for a customer</p>
+      </div>
+    </div>
+  </div>
+</div>

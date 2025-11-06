@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2024-06-11T19:30:54.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="4oUfAAYaRH__6Kn5qWQW" version="24.5.3" type="device">
+  <diagram id="3j9G0F825_cHGCq9AKto" name="Page-2">
+    <mxGraphModel dx="3041" dy="-2417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-60" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="83.99999999999989" y="3948.74" width="346" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-570.0699999999999" y="3580" width="1250.07" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=-270;" parent="1" vertex="1">
+          <mxGeometry x="-890" y="3904.6900000000005" width="857.5" height="213.13" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-63" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;LOGO&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-559.0699999999999" y="3590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-64" value="&lt;b&gt;Logout&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="509.9299999999997" y="3610" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-569.0699999999999" y="4340" width="1249.07" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-66" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Footer Information&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-16.069999999999766" y="4375" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-67" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Welcome Message&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-329.07" y="3600" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-68" value="Current user information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-309.07" y="3640" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-69" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Menu Options&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-549.0699999999999" y="3750" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-70" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Dashboard&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-564.0699999999999" y="3820" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-71" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Transactions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-544.0699999999999" y="3860" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-72" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Manage Accounts&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="-559.0699999999999" y="3904.6900000000005" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-73" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Register new customer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-564.0699999999999" y="3950" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-74" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Manage Customers&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-559.0699999999999" y="3995" width="139.07" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-75" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Profile&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-585" y="4033.74" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QFe1ScGnCT4EniJzE_eW-75" target="QFe1ScGnCT4EniJzE_eW-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-77" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-429.07" y="3800" as="sourcePoint" />
+            <mxPoint x="-549.0699999999999" y="3800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-78" value="Customer 1 Account Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="3720" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-79" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="3785" width="450" height="331.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-80" value="Current Account details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-169.36" y="3806.26" width="149.36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-81" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-267.40000000000003" y="3856.26" width="350" height="211.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-82" value="&lt;div&gt;Account ID: 987654321&lt;/div&gt;&lt;div&gt;Account Number: 123456789&lt;/div&gt;&lt;div&gt;Account Type: Current Account&lt;/div&gt;&lt;div&gt;Balance: $2,500.00&lt;/div&gt;&lt;div&gt;Branch Code: 001&lt;/div&gt;&lt;div&gt;Overdraft Amount:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Overdraft Interest Rate:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Customer ID: 1122334455&lt;/div&gt;&lt;div&gt;Status: Active&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Date Opened: January 10, 2022&lt;/div&gt;&lt;div&gt;Last Transaction Date: June 24, 2024&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-225.16000000000003" y="3911.8900000000003" width="270.23" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-83" value="Close Account" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="-249.93" y="4073.74" width="86" height="31.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-84" value="Update Charges" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="-93.93000000000006" y="4073.74" width="94" height="33.76" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-372" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195.92999999999995" y="3786.5599999999995" width="450" height="331.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-373" value="Savings Account details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="346.56999999999994" y="3807.8199999999997" width="121.32" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-374" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="248.52999999999997" y="3857.8199999999997" width="350" height="211.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-375" value="&lt;div&gt;Account ID: 987654321&lt;/div&gt;&lt;div&gt;Account Number: 123456789&lt;/div&gt;&lt;div&gt;Account Type: Current Account&lt;/div&gt;&lt;div&gt;Balance: $2,500.00&lt;/div&gt;&lt;div&gt;Branch Code: 001&lt;/div&gt;&lt;div&gt;Customer ID: 1122334455&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Date Opened: January 10, 2022&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290.77" y="3913.45" width="270.23" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-376" value="Close Account" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="266" y="4075.2999999999993" width="86" height="31.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-378" value="New Savings Account" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="-55.60000000000002" y="4280" width="86" height="31.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-379" value="New Current Account" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="109.93000000000006" y="4280" width="86" height="31.26" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-380" value="350" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="3944.6900000000005" width="39.6" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="QFe1ScGnCT4EniJzE_eW-381" value="14.5" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-26.999999999999943" y="3959.6899999999996" width="39.6" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

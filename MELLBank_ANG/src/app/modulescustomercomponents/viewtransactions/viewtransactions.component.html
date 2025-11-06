@@ -1,0 +1,38 @@
+<div class="container">
+  <header>
+    <h1>Customer Transactions</h1>
+    <button class="logout" [routerLink]="['/customer']">
+      <i class="fas fa-paper-plane"></i>Back</button>
+    <!-- <button class="btn btn-info" [routerLink]="['/customer/withdraw']">
+         <i class="fas fa-paper-plane"></i> Withdraw -->
+  </header>
+  <main class="main-content">
+    <section class="transactions-history">
+      <div class="transactions-list" id="transactions-list" *ngIf="transactions.length > 0">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Transaction Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let transaction of transactions">
+              <td>{{ transaction.transactionDate }}</td>
+              <td>{{ transaction.description }}</td>
+              <td>{{ transaction.amount }}</td>
+              <td>{{ transaction.transactionType }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- <section class="balance-info">
+        <h3>Balance Information</h3>
+        <p>Balance details</p>
+      </section> -->
+  </main>
+
+</div>

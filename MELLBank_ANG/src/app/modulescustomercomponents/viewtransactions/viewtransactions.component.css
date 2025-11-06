@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  background-color: #c4dff0; /* Columbia Blue background */
+}
+
+header {
+  grid-area: header;
+  background: #b6d5e7; /* Columbia Blue */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #3a4f64; /* Charcoal */
+}
+
+header .logout {
+  background-color: #387691; /* Cerulean */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+header .logout:hover {
+  background-color: #3a4f64; /* Charcoal */
+}
+
+.main-content {
+  grid-area: main;
+  padding: 10px;
+}
+
+.transactions-history {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.transactions-list {
+  border: 1px solid #387691; /* Cerulean */
+  padding: 10px;
+  background-color: #a9cadc; /* Columbia Blue */
+  margin-top: 10px;
+}
+
+.transactions-list table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.transactions-list th,
+.transactions-list td {
+  border: 1px solid #3a4f64; /* Charcoal */
+  padding: 8px;
+  text-align: left;
+}
+
+.balance-info {
+  border: 1px solid #387691; /* Cerulean */
+  padding: 10px;
+  background-color: #a9cadc; /* Columbia Blue */
+  margin-top: 10px;
+}
+
+footer {
+  grid-area: footer;
+  background: #b6d5e7; /* Columbia Blue */
+  padding: 10px;
+  text-align: center;
+}

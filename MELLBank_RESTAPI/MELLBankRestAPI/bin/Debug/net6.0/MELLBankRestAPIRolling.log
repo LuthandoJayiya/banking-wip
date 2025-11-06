@@ -1,0 +1,604 @@
+2024-06-10 10:46:33,034 [12] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-10 10:47:41,541 [14] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 17:28:20,825 [15] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 17:28:48,974 [28] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 17:33:01,219 [35] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 17:33:01,219 [18] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 17:56:57,815 [47] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 17:57:06,558 [43] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 17:57:13,816 [42] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 18:06:45,219 [16] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 18:11:28,540 [49] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 18:14:15,426 [52] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer Jewel Yest on 2024/06/12 16:14:15.
+2024-06-12 18:14:15,429 [52] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 21
+2024-06-12 18:14:54,872 [59] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JewelYest - Customer 
+2024-06-12 18:19:55,775 [4] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 18:20:39,767 [30] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer JewelB YestB on 2024/06/12 16:20:39.
+2024-06-12 18:20:39,769 [30] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 22
+2024-06-12 18:23:23,371 [28] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer JewelQ YestQ on 2024/06/12 16:23:23.
+2024-06-12 18:23:23,401 [28] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 23
+2024-06-12 18:31:00,606 [24] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer JewelHH YestHH on 2024/06/12 16:30:16.
+2024-06-12 18:31:02,032 [24] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 24
+2024-06-12 18:44:24,738 [23] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer XJewel XYest on 2024/06/12 16:44:24.
+2024-06-12 18:44:24,765 [23] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 25
+2024-06-12 19:20:04,386 [18] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 19:21:23,303 [13] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 19:23:53,027 [17] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 19:45:28,208 [23] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 19:46:38,797 [31] INFO CustomersController - Administrator: Sipho Zwane created the savings account for Customer FIXEDJewel FIXEDYest on 2024/06/12 17:46:38.
+2024-06-12 19:46:38,799 [31] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 26
+2024-06-12 19:48:47,453 [20] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer KOKOJewel KOKOYest on 2024/06/12 17:48:46.
+2024-06-12 19:48:47,471 [20] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 27
+2024-06-12 19:51:15,981 [27] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer WEATJewel WEATYest on 2024/06/12 17:51:15.
+2024-06-12 19:51:15,994 [27] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 28
+2024-06-12 21:03:55,867 [52] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 21:36:43,649 [7] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-12 21:41:33,804 [39] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 21:48:50,569 [44] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-12 21:52:03,052 [38] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 00:07:52,965 [22] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 00:19:04,979 [17] ERROR SavingsAccountController - Unable to close savings account
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<SavingsAccount>.Find' was of type 'string', which does not match the property type of 'Guid'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues, IReadOnlyList`1& keyProperties)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues)
+   at MELLBankRestAPI.Controllers.SavingsAccountController.CloseSavingsAccount(String id, SavingsAccountVM savingsAccountVM) in C:\Users\local.user.LAPSAF80217.000\Documents\Week11FinalProject\mellbank_finalproject\MELLBank_RESTAPI\MELLBankRestAPI\Controllers\SavingsAccountController.cs:line 114
+2024-06-13 00:24:27,510 [6] INFO SavingsAccountController - Successfully closed savings account with id: 474d3e2a-0529-ef11-a045-c538eccaf607
+2024-06-13 00:46:47,634 [30] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 00:59:33,872 [12] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 01:45:12,536 [37] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 01:45:40,052 [35] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: NomsaMkhize - Customer 
+2024-06-13 01:45:54,489 [17] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 01:54:11,725 [59] INFO CustomersController - Administrator: Sipho Zwane created the savings account and current account for Customer Jon Butter on 2024/06/12 23:54:11.
+2024-06-13 01:54:11,727 [59] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 11
+2024-06-13 09:15:24,843 [25] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 09:15:37,383 [21] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 09:15:49,158 [26] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 09:40:50,788 [8] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 10:40:49,346 [93] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 11:34:21,723 [148] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 11:34:51,364 [150] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 11:39:48,327 [148] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 12:15:25,354 [146] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 12:15:30,849 [146] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 12:18:46,739 [142] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 12:51:39,630 [21] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 12:52:41,906 [17] INFO CustomersController - BankStaff: Sindi Ntuli created the savings account for Customer Alex Smith on 2024/06/13 10:52:41.
+2024-06-13 12:52:41,909 [17] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sindi created a new customer with id 11
+2024-06-13 12:56:22,539 [26] INFO CustomersController - BankStaff: Sindi Ntuli created the savings account and current account for Customer Patrick Johnson on 2024/06/13 10:56:22.
+2024-06-13 12:56:22,551 [26] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sindi created a new customer with id 12
+2024-06-13 12:57:57,308 [20] INFO CustomersController - BankStaff: Sindi Ntuli created the current account for Customer Johnny Bravo on 2024/06/13 10:57:56.
+2024-06-13 12:57:57,326 [20] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sindi created a new customer with id 0
+2024-06-13 13:00:48,982 [17] INFO CustomersController - BankStaff: Sindi Ntuli created the savings account for Customer Alice Wonderland on 2024/06/13 11:00:48.
+2024-06-13 13:00:49,006 [17] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sindi created a new customer with id 13
+2024-06-13 14:00:13,942 [7] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 14:01:14,792 [32] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 14:04:35,895 [37] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 14:22:15,316 [88] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 15:29:56,987 [9] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 15:30:03,811 [9] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 15:30:48,900 [24] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 15:45:27,564 [24] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 15:46:19,269 [31] INFO CustomersController - Administrator: Sipho Zwane created the current account for Customer Johnny Bravsso on 2024/06/13 13:46:19.
+2024-06-13 15:46:19,270 [31] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 14
+2024-06-13 15:46:32,544 [28] INFO CustomersController - Administrator: Sipho Zwane created the user account for Customer Jon Butter on 2024/06/13 13:46:32.
+2024-06-13 15:46:32,548 [28] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 15
+2024-06-13 15:47:51,933 [20] INFO CustomersController - Administrator: Sipho Zwane created the savings account and current account for Customer Jon Butter on 2024/06/13 13:47:51.
+2024-06-13 15:47:51,961 [20] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 16
+2024-06-13 15:50:18,465 [13] INFO CustomersController - Administrator: Sipho Zwane created the savings account and current account for Customer Paul Atreides on 2024/06/13 13:50:18.
+2024-06-13 15:50:18,479 [13] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 17
+2024-06-13 16:32:13,547 [56] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 16:33:26,966 [9] INFO CustomersController - Administrator: Sipho Zwane created the savings account and current account for Customer Jon Butter on 2024/06/13 14:33:26.
+2024-06-13 16:33:26,968 [9] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 18
+2024-06-13 16:52:09,750 [76] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 17:04:03,933 [9] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 17:04:04,973 [44] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:04:12,214 [73] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 17:04:59,487 [32] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 17:05:23,678 [32] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:05:31,795 [32] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:05:39,080 [44] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 2
+2024-06-13 17:08:27,133 [14] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 17:09:34,366 [79] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 17:12:12,919 [58] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 17:13:13,342 [39] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:14:08,790 [30] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:14:44,291 [30] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:15:12,644 [52] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:15:47,106 [28] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:16:37,229 [40] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 17:16:38,267 [40] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:18:23,330 [28] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:18:56,529 [23] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:19:55,639 [27] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:20:30,760 [26] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:21:21,275 [26] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:21:41,965 [80] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:23:27,676 [18] INFO ApplicationUserController - TransactionsController - POST : /gst
+2024-06-13 17:23:58,762 [82] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:25:11,394 [87] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:44:06,320 [76] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 17:44:07,368 [76] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:44:21,278 [67] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 17:44:59,833 [32] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 17:45:09,330 [32] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 17:45:41,738 [97] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 17:45:42,761 [93] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:46:29,062 [95] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:48:25,196 [32] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 17:49:33,684 [101] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 17:53:42,293 [105] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 17:53:50,797 [101] INFO SavingsAccountController - Successfully retrived all savings accounts for customer id: 1
+2024-06-13 18:15:37,197 [27] INFO CurrentAccountController - Retrieved Account for Customer with ID: 1
+2024-06-13 18:17:03,993 [41] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-13 18:18:54,834 [52] INFO CustomersController - Administrator: Sipho Zwane created the savings account and current account for Customer Patrick Johnson on 2024/06/13 16:18:54.
+2024-06-13 18:18:54,837 [52] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 19
+2024-06-13 18:26:13,107 [22] INFO CustomersController - Administrator: Sipho Zwane created the savings account and current account for Customer Patrick Johnson on 2024/06/13 16:26:12.
+2024-06-13 18:26:13,130 [22] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 20
+2024-06-13 18:32:10,170 [33] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 18:33:30,876 [18] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 18:37:34,970 [15] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 19:07:08,754 [6] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-13 19:07:20,275 [19] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 19:07:21,354 [19] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:08:16,308 [18] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:08:26,348 [18] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:16:25,392 [42] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:25:18,558 [12] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiyabongaNkosi - Customer 
+2024-06-13 19:25:53,324 [27] INFO CustomersController - Accounts successfully retrieved for customer 8.
+2024-06-13 19:27:52,375 [32] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:30:03,697 [35] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:30:32,211 [34] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:30:52,315 [31] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:32:32,026 [34] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:33:29,799 [31] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:36:52,179 [37] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:41:11,727 [40] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:41:12,658 [36] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 19:41:23,571 [36] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 20:00:50,865 [23] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiyabongaNkosi - Customer 
+2024-06-13 20:01:14,879 [24] INFO CustomersController - Accounts successfully retrieved for customer 8.
+2024-06-13 20:03:05,929 [30] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 20:03:18,094 [36] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 20:03:22,003 [38] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 20:03:30,879 [20] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 20:40:56,797 [9] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 20:41:13,177 [4] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-13 20:42:32,751 [27] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 20:43:03,947 [25] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 20:46:39,287 [12] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 21:14:41,220 [24] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 21:15:07,580 [32] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-13 21:15:31,049 [35] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 21:15:58,511 [38] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:04:58,388 [42] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:04:59,613 [42] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:17:22,996 [35] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:17:34,256 [37] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 22:17:35,299 [35] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:20:59,501 [37] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:21:48,309 [37] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 22:21:49,361 [38] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:26:54,910 [12] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:27:08,413 [15] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:28:19,856 [29] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:29:10,130 [33] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:35:07,192 [38] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:35:30,773 [40] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:36:08,344 [45] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:46:00,481 [56] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:46:10,533 [56] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:46:30,165 [59] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:54:03,151 [63] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:54:04,549 [64] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:55:00,335 [63] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:55:02,398 [75] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:55:05,533 [63] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:55:06,825 [76] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 22:55:11,189 [76] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:55:19,733 [77] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:55:30,818 [77] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:55:34,723 [64] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:55:36,376 [76] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:55:39,154 [72] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 22:55:41,477 [77] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:15:34,910 [130] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:15:45,218 [133] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:16:54,806 [142] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:17:06,460 [133] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:17:21,266 [137] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:21:03,955 [139] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:21:07,861 [138] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:21:11,198 [141] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:29:30,647 [114] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 23:29:35,912 [116] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-13 23:29:36,977 [114] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 23:29:43,594 [124] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:29:54,785 [109] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:30:53,647 [101] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:31:03,886 [104] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:31:05,613 [96] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:31:23,162 [92] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:31:29,406 [94] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:36:41,956 [121] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:36:58,253 [128] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:37:21,429 [113] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:37:36,410 [115] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:37:47,488 [113] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:37:51,355 [128] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:38:15,504 [113] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:38:23,257 [95] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:38:29,559 [95] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:39:13,830 [95] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:39:39,476 [91] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:39:43,392 [99] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:40:42,393 [89] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:40:47,455 [89] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:43:55,851 [42] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:43:57,809 [45] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:44:14,521 [41] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:44:15,448 [41] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:44:26,271 [105] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:45:03,467 [13] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-13 23:45:12,868 [135] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:46:26,621 [87] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:52:41,729 [121] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:54:28,421 [113] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:55:31,190 [117] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:55:43,915 [115] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:56:06,920 [123] INFO ApplicationUserController - TransactionsController - POST : /gst
+2024-06-13 23:56:15,314 [139] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-13 23:57:48,702 [121] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:00:15,922 [75] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:00:20,389 [75] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:00:21,696 [31] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:02:40,267 [36] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:02:46,384 [116] INFO ApplicationUserController - TransactionsController - POST : /gst
+2024-06-14 00:02:52,820 [34] INFO CustomersController - Account with ID 80f666ba-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:03:07,941 [34] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 00:03:08,997 [63] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:08:06,175 [12] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:08:08,897 [12] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:08:18,279 [140] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:08:29,888 [9] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:08:31,740 [126] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:08:49,254 [126] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:09:07,654 [138] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:09:56,612 [85] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:09:59,056 [85] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:10:07,025 [35] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:10:37,550 [130] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:17:59,518 [123] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:31:13,266 [96] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:32:18,154 [13] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:32:51,336 [117] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 00:32:52,357 [95] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:36:33,150 [4] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:36:48,159 [119] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:37:22,269 [103] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:37:23,151 [103] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:37:23,563 [120] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:38:30,881 [91] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 00:38:30,990 [13] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:39:55,481 [128] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:40:22,333 [123] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:40:29,513 [15] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:45:42,863 [132] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:45:44,033 [137] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:45:49,356 [96] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:45:53,154 [137] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:46:11,989 [107] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:46:20,822 [120] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:46:22,574 [107] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:47:02,374 [93] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:51:07,084 [41] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:51:37,080 [41] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:51:38,266 [131] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:52:24,579 [131] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:52:34,863 [86] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:52:36,565 [123] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:52:42,375 [116] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:52:47,744 [41] INFO CustomersController - Account with ID 422df5ce-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:52:50,392 [116] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:53:05,437 [123] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:53:06,839 [76] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:53:08,653 [63] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:53:18,667 [75] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 00:53:28,380 [63] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:54:54,697 [63] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:55:51,442 [63] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 00:55:55,521 [12] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:16:43,416 [29] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 01:16:45,511 [29] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:18:53,075 [39] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:19:02,815 [27] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:20:16,803 [48] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:20:51,058 [47] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:20:54,783 [45] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:21:09,278 [50] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:21:10,767 [44] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:21:22,705 [51] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:21:23,591 [52] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:21:25,688 [44] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 01:21:31,357 [46] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:22:02,387 [43] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:22:11,013 [51] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:22:24,639 [43] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:25:03,485 [24] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-14 01:26:45,112 [25] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-14 01:29:05,923 [27] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-14 01:29:13,082 [35] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-14 01:30:58,199 [39] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SindiBankStaff - BankStaff 
+2024-06-14 01:33:42,407 [15] INFO SavingsAccountController - User: '' successfully retrived all savings accounts for customer id: 1
+2024-06-14 01:36:49,606 [53] INFO SavingsAccountController - User: '' successfully retrived all savings accounts for customer id: 1
+2024-06-14 01:36:56,319 [52] INFO SavingsAccountController - User: '' successfully retrived all savings accounts for customer id: 4
+2024-06-14 01:39:03,325 [32] INFO CurrentAccountController - Retrieved Account for Customer with ID: 1
+2024-06-14 01:39:22,219 [55] INFO CurrentAccountController - Retrieved Account for Customer with ID: 1
+2024-06-14 01:39:27,384 [55] INFO CurrentAccountController - CreateCurrentAccount - Creating a new account.
+2024-06-14 01:39:27,694 [57] INFO CurrentAccountController - Created new Account for customer with ID: 1
+2024-06-14 01:39:30,037 [55] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 01:40:06,237 [59] INFO CurrentAccountController - Retrieved Account for Customer with ID: 1
+2024-06-14 01:40:30,051 [58] INFO CurrentAccountController - CloseAccount - Closing Account.
+2024-06-14 01:40:30,093 [59] INFO CurrentAccountController - Closed Account with ID: f3105583-7ca7-4e50-9617-b1322e604569
+2024-06-14 01:40:38,889 [61] INFO CurrentAccountController - Retrieved Account for Customer with ID: 1
+2024-06-14 01:40:58,095 [61] INFO CurrentAccountController - Retrieved Account for Customer with ID: 1
+2024-06-14 01:41:03,757 [61] INFO CurrentAccountController - CreateCurrentAccount - Creating a new account.
+2024-06-14 01:41:03,783 [62] INFO CurrentAccountController - Created new Account for customer with ID: 1
+2024-06-14 01:41:05,393 [61] INFO CurrentAccountController - Retrieving all current accounts
+2024-06-14 01:42:17,168 [58] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-14 01:42:53,717 [65] INFO CustomersController - Administrator: Sipho Zwane created the user account for Customer Paul Atreides on 2024/06/13 23:42:53.
+2024-06-14 01:42:53,719 [65] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 21
+2024-06-14 01:47:12,111 [6] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 01:47:13,198 [67] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:47:25,584 [73] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:51:15,737 [71] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:51:16,248 [76] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:53:38,103 [77] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:56:43,463 [77] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:56:48,028 [78] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:57:08,258 [76] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 01:57:09,326 [20] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:57:34,679 [78] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 01:57:35,752 [79] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:57:38,900 [77] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 01:58:00,658 [78] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 01:58:04,107 [82] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:58:06,670 [82] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:58:24,296 [82] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:58:25,920 [82] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:58:29,598 [78] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:03,857 [80] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:12,259 [81] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:15,306 [80] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:17,711 [80] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:20,086 [79] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:23,314 [83] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:24,703 [80] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 01:59:27,370 [83] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:00:25,464 [81] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 02:00:26,554 [80] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:01:12,199 [85] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:01:15,427 [81] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:01:45,442 [85] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:02:24,309 [78] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:02:29,682 [78] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:02:34,389 [78] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:02:44,262 [79] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:02:48,227 [82] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:02:50,844 [77] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:02:55,132 [77] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:03:43,297 [20] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:03:47,405 [71] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:04:27,231 [71] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:04:29,450 [20] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:05:11,532 [68] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:05:18,482 [19] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:05:28,057 [68] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:05:48,974 [70] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:06:04,945 [67] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:06:09,664 [19] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:06:11,022 [19] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:06:12,087 [67] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:09:01,848 [72] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:09:31,653 [60] INFO CustomersController - Account with ID e04af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:09:35,063 [54] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:09:49,996 [54] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:09:52,879 [57] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:09:54,933 [54] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:09:56,052 [57] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:09:57,675 [55] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:09:59,234 [32] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:10:00,579 [72] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:10:02,552 [72] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:10:11,861 [6] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:10:14,212 [32] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:10:15,647 [32] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:10:23,187 [32] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:10:41,968 [32] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:10:57,181 [53] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 02:10:58,247 [57] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:11:02,189 [57] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:11:41,321 [53] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 02:11:42,392 [53] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:12:58,776 [52] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:06,832 [25] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:08,095 [16] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:13,347 [25] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:14,350 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:16,324 [52] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:29,468 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:32,283 [4] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:34,662 [4] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:36,025 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:50,723 [4] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:53,003 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:13:56,729 [52] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:14:07,675 [25] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:14:23,999 [33] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:14:48,430 [39] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:14:58,426 [40] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:16:09,281 [40] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:16:21,486 [39] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:16:56,353 [33] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:17:02,446 [86] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:17:06,389 [33] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:17:16,668 [41] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:17:56,050 [86] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:17:57,916 [33] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:18:12,044 [88] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:18:43,820 [87] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:18:46,031 [89] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:18:50,858 [86] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:00,981 [89] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:14,386 [90] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:15,222 [92] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:21,797 [91] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:24,274 [89] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:28,098 [92] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:29,262 [88] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:45,338 [88] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:19:46,311 [88] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:20:50,969 [92] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:20:54,675 [36] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:20:58,797 [93] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:03,738 [92] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:16,490 [87] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:20,404 [92] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:21,847 [36] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:34,848 [93] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:36,837 [91] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:40,694 [91] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:44,506 [93] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:54,119 [36] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:21:58,315 [36] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:22:00,290 [92] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:22:10,572 [39] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:22:16,707 [24] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:22:27,378 [24] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: SiphoAdmin - Administrator 
+2024-06-14 02:22:50,048 [87] INFO CustomersController - Administrator: Sipho Zwane created the savings account for Customer Jon Butter on 2024/06/14 00:22:50.
+2024-06-14 02:22:50,050 [87] INFO CustomersController - POST: /api/Customers - System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,MELLBankRestAPI.Services.IdentityHelper+<GetUserAccessLevelRole>d__8] Sipho created a new customer with id 22
+2024-06-14 02:24:35,877 [16] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 02:24:36,960 [40] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:25:02,885 [16] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:25:05,606 [16] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:30:39,760 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:30:46,337 [55] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:30:49,594 [32] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:31:04,923 [54] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:31:17,452 [54] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:31:19,783 [32] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:31:29,846 [32] INFO ApplicationUserController - TransactionsController - POST : /gst
+2024-06-14 02:31:32,693 [36] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:31:38,504 [25] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:31:44,766 [40] INFO ApplicationUserController - TransactionsController - POST : /gst
+2024-06-14 02:31:46,258 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:31:53,671 [40] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:31:55,315 [54] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:32:04,339 [54] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:33:47,280 [57] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:33:52,193 [25] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:33:53,603 [55] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:33:55,639 [72] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:33:59,732 [72] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:34:05,037 [41] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:34:43,480 [64] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:34:47,625 [64] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:36:07,250 [64] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 02:36:08,337 [75] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:37:02,582 [67] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:37:04,162 [75] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:37:15,957 [67] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:37:24,353 [69] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:37:30,240 [70] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:37:32,383 [67] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:37:41,765 [77] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:37:44,587 [79] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:37:48,903 [69] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:37:53,169 [79] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:40:34,414 [78] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:40:41,753 [78] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:40:45,646 [84] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:40:51,954 [84] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:40:55,856 [84] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:40:59,315 [84] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:41:01,804 [78] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:41:02,569 [78] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:48:35,765 [55] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:48:39,968 [6] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:48:49,049 [75] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:48:52,840 [55] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:48:57,043 [6] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:49:05,446 [6] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:49:06,149 [75] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:49:36,942 [55] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:49:39,243 [59] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:49:55,752 [4] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:50:08,019 [59] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:50:10,991 [52] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:50:32,836 [52] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:50:39,241 [57] INFO CustomersController - Account with ID 422df5ce-9729-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:50:46,759 [57] INFO ApplicationUserController - TransactionsController - POST : /gst
+2024-06-14 02:50:50,712 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:51:24,216 [16] INFO CustomersController - Account with ID d64af56a-7229-ef11-a045-c538eccaf607 successfully retrieved for customer 1.
+2024-06-14 02:51:37,619 [4] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:51:40,321 [4] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 02:51:42,680 [7] INFO CustomersController - Account with ID f3105583-7ca7-4e50-9617-b1322e604569 successfully retrieved for customer 1.
+2024-06-14 02:51:44,381 [69] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:03:14,496 [43] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 03:03:15,597 [64] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:03:37,078 [72] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:03:52,374 [63] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:03:55,533 [63] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:08:15,741 [69] INFO ApplicationUserController - Post : /api/ApplicationUser/Login model.UserName: JabuNkosi - Customer 
+2024-06-14 03:08:16,874 [16] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:08:20,772 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:08:23,229 [74] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:08:25,271 [74] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:08:33,188 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:08:49,983 [69] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:02,628 [64] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:04,107 [74] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:06,484 [69] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:09,417 [16] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:12,466 [7] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:23,740 [74] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:25,393 [74] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:48,305 [59] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:09:53,536 [66] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:10:31,597 [40] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:10:37,131 [69] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:10:39,311 [71] INFO CustomersController - Account with ID 3cd53748-9a78-4970-87c1-eeb1e168bf62 successfully retrieved for customer 1.
+2024-06-14 03:10:41,297 [69] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:11:11,769 [71] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:11:20,637 [62] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:11:29,133 [22] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:11:43,668 [22] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:13:04,029 [22] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 03:13:05,906 [25] INFO CustomersController - Accounts successfully retrieved for customer 1.
+2024-06-14 14:15:05,627 [21] ERROR ApplicationUserController - Post : /api/ApplicationUser/Login: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at MELLBankRestAPI.Controllers.ApplicationUserController.Login(LoginModel model) in C:\Users\local.user\OneDrive - FDM Group (1)\Documents\AngularWorkspace\MELLBANK\mellbank_finalproject\MELLBank_RESTAPI\MELLBankRestAPI\Controllers\ApplicationUserController.cs:line 38
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20

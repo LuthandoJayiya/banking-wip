@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #3A4F64;
+}
+
+.admin-main .container-fluid {
+  padding-top: 20px;
+}
+
+.sidebar {
+  background-color: #387691;
+  color: white;
+  min-height: 100vh;
+}
+
+.sidebar .nav-link {
+  color: white;
+}
+
+.sidebar .nav-link.active {
+  background-color: #526B7F;
+}
+
+.card {
+  background-color: #C4DFF0;
+  border: none;
+  border-radius: 10px;
+}
+
+.card .table thead {
+  background-color: #387691;
+}
+
+.card .table thead th {
+  color: white;
+}
+
+.card .table tbody tr:hover {
+  background-color: #A9CADC;
+}
+
+.btn-primary {
+  background-color: #526B7F;
+  border-color: #526B7F;
+}
+
+.btn-outline-secondary {
+  color: #387691;
+  border-color: #387691;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #387691;
+  color: white;
+}

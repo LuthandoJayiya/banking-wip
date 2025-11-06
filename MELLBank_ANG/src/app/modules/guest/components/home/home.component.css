@@ -1,0 +1,150 @@
+/*
+=============================================================================
+                                Navbar Styles
+=============================================================================
+*/
+.navbar {
+  background: var(--color1);
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.1),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+/* Active Link Styles */
+.navbar-nav .nav-link.active-link {
+  border-bottom: 2px solid #387691;
+}
+
+.navbar-brand img {
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: var(--color3) !important;
+}
+
+.auth-buttons .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: var(--color4);
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  background: var(--color4);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+    -6px -6px 12px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.auth-buttons .btn:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.5);
+  background-color: var(--color5);
+}
+
+/* Glassmorphism Effect Styles */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.15);
+  /* backdrop-filter: blur(10px); */
+  border-radius: 10px;
+}
+
+/*
+=============================================================================
+                                Footer Styles
+=============================================================================
+*/
+.footer {
+  background: var(--color1);
+  color: var(--color3);
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.1),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.footer h5 {
+  color: var(--color3);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer p,
+.footer a {
+  color: var(--color3);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .form-control {
+  border-radius: 5px;
+}
+
+.footer .btn-primary {
+  background-color: var(--color4);
+  border: none;
+  border-radius: 5px;
+}
+
+/*
+=============================================================================
+                                Hero Section Styles
+=============================================================================
+*/
+.hero {
+  height: 87vh;
+  background: var(--color6);
+  background: linear-gradient(145deg, #ffffff, var(--color5));
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.1),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.hero-content {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 2rem;
+  /* backdrop-filter: blur(10px); */
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.1),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-images img {
+  max-width: 100%;
+}
+/*
+=============================================================================
+                                Button Styles
+=============================================================================
+*/
+.btn-get-started {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: var(--color4);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-get-started a {
+  text-decoration: none;
+  color: #ffffff;
+}

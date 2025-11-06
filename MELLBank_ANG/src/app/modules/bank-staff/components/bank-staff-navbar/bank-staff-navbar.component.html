@@ -1,0 +1,57 @@
+<div class="staff-layout">
+  <div class="navbar" [class.closed]="isMenuClosed">
+    <div class="logo">
+      <i class="fas fa-user"></i>
+      <span *ngIf="!isMenuClosed"></span>
+    </div>
+
+    <ul class="nav-links">
+      <span class="text-center" *ngIf="!isMenuClosed">
+        <h4>Menu Options</h4>
+        <hr />
+      </span>
+
+      <li routerLinkActive="active" [routerLink]="['/bank-staff/home']">
+        <i class="fas fa-tachometer-alt"></i>
+        <span *ngIf="!isMenuClosed">Dashboard</span>
+      </li>
+      <li routerLinkActive="active" [routerLink]="['/bank-staff/transactions']">
+        <i class="fas fa-exchange-alt"></i>
+        <span *ngIf="!isMenuClosed">Transactions</span>
+      </li>
+
+      <li routerLinkActive="active" [routerLink]="['/bank-staff/register-customer']">
+        <i class="fa-solid fa-user-plus"></i>
+        <span *ngIf="!isMenuClosed">Register Customer</span>
+      </li>
+
+      <li routerLinkActive="active" [routerLink]="['/bank-staff/account-management']">
+        <i class="fa-solid fa-bars-progress"></i>
+        <span *ngIf="!isMenuClosed">Manage Accounts</span>
+      </li>
+
+      <span class="others-section" *ngIf="!isMenuClosed">
+        <h4>Others</h4>
+        <hr />
+      </span>
+      <li routerLinkActive="active" [routerLink]="['/bank-staff/profile']">
+        <i class="fas fa-user"></i>
+        <span *ngIf="!isMenuClosed">My Profile</span>
+      </li>
+
+      <li>
+        <i class="fas fa-sign-out-alt"></i>
+        <span *ngIf="!isMenuClosed" (click)="logout()">Logout</span>
+      </li>
+    </ul>
+    <div class="toggle-btn" (click)="toggleMenu()">
+      <i
+        class="fas"
+        [ngClass]="isMenuClosed ? 'fa-chevron-right' : 'fa-chevron-left'"
+      ></i>
+    </div>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

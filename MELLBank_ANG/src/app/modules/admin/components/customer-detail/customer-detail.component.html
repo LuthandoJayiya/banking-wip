@@ -1,0 +1,112 @@
+<main class="container-fluid mt-4">
+  <div *ngIf="customerDetails" class="row">
+    <div class="col-md-12 mb-4">
+      <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+          <h4>Customer Details</h4>
+        </div>
+        <div class="card-body">
+          <p><strong>Username:</strong> {{ customerDetails.username }}</p>
+          <p><strong>First Name:</strong> {{ customerDetails.firstName }}</p>
+          <p><strong>Last Name:</strong> {{ customerDetails.lastName }}</p>
+          <p><strong>Email:</strong> {{ customerDetails.email }}</p>
+          <p><strong>Phone Number:</strong> {{ customerDetails.phoneNumber }}</p>
+          <p><strong>Address:</strong> {{ customerDetails.streetAddress }}, {{ customerDetails.city }}, {{
+            customerDetails.province }}, {{ customerDetails.postalCode }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12 mb-4">
+      <button class="btn btn-secondary" (click)="goBack()">Back to Customers</button>
+    </div>
+
+    <ng-container *ngIf="customerDetails.currentAccounts.length > 0; else noCurrentAccounts">
+      <div class="col-md-6 mb-4" *ngFor="let account of customerDetails.currentAccounts">
+        <div class="card bg-dark text-white shadow-sm">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="card-title">Current Account</h2>
+                <hr>
+                <div class="credit-card bg-secondary p-3 rounded">
+                  <div class="card-type">Current</div>
+                  <div class="card-name">MELLBANK</div>
+                  <div class="chip">
+                    <img
+                      src="assets/images/kisspng-integrated-circuits-chips-smart-card-computer-ic-chip-5abc26ec39a441.9442861815222801722361.png"
+                      alt="chip" width="50" height="50" />
+                  </div>
+                  <div class="tap-icon">
+                    <i class="fas fa-wifi"></i>
+                  </div>
+                  <div class="card-number">{{ account.accountNumber }}</div>
+                  <div class="card-owner">{{ customerDetails.firstName }} {{ customerDetails.lastName }}</div>
+                  <img src="assets/images/Logo-VISA-transparent-PNG.png" alt="Visa Logo" class="visa-logo" />
+                </div>
+              </div>
+              <div class="col-md-6 text-center">
+                <h2 class="card-title">Your Total Balance</h2>
+                <p class="balance display-4">{{ account.balance | currency: 'R' }}</p>
+                <p>{{ account.creationDate | date }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="customerDetails.savingsAccounts.length > 0; else noSavingsAccounts">
+      <div class="col-md-6 mb-4" *ngFor="let account of customerDetails.savingsAccounts">
+        <div class="card bg-dark text-white shadow-sm">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="card-title">Savings Account</h2>
+                <hr>
+                <div class="credit-card bg-info p-3 rounded">
+                  <div class="card-type">Savings</div>
+                  <div class="card-name">MELLBANK</div>
+                  <div class="chip">
+                    <img
+                      src="assets/images/kisspng-integrated-circuits-chips-smart-card-computer-ic-chip-5abc26ec39a441.9442861815222801722361.png"
+                      alt="chip" width="50" height="50" />
+                  </div>
+                  <div class="tap-icon">
+                    <i class="fas fa-wifi"></i>
+                  </div>
+                  <div class="card-number">{{ account.accountNumber }}</div>
+                  <div class="card-owner">{{ customerDetails.firstName }} {{ customerDetails.lastName }}</div>
+                  <img src="assets/images/Logo-VISA-transparent-PNG.png" alt="Visa Logo" class="visa-logo" />
+                </div>
+              </div>
+              <div class="col-md-6 text-center">
+                <h2 class="card-title">Your Total Balance</h2>
+                <p class="balance display-4">{{ account.balance | currency: 'R' }}</p>
+                <p>{{ account.creationDate | date }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+
+    <ng-template #noCurrentAccounts>
+      <div class="col-md-12 mb-4">
+        <div class="alert alert-warning text-center">
+          <h4>No Current Accounts Available</h4>
+          <p>This customer does not have any current accounts.</p>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template #noSavingsAccounts>
+      <div class="col-md-12 mb-4">
+        <div class="alert alert-warning text-center">
+          <h4>No Savings Accounts Available</h4>
+          <p>This customer does not have any savings accounts.</p>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</main>

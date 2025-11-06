@@ -1,0 +1,37 @@
+<h2 class="text-center">Current Accounts</h2>
+<hr />
+<div class="current-accounts-container">
+  <div
+    *ngFor="let account of currentAccounts"
+    class="account-card card bg-light mb-3"
+  >
+    <div class="card-body">
+      <div class="row">
+        <div>
+          <p><strong>Account Number:</strong> {{ account.AccountNumber }}</p>
+          <p>
+            <strong>Creation Date:</strong> {{ account.CreationDate | date }}
+          </p>
+          <p><strong>Balance:</strong> {{ account.Balance }}</p>
+        </div>
+        <div class="col-md-5 d-flex align-items-center justify-content-end">
+          <button
+            [disabled]="account.CloseDate"
+            [ngStyle]="{
+              'background-color': account.CloseDate ? 'silver' : ''
+            }"
+            (click)="closeCurrentAccount(account.CurrentId)"
+            class="btn btn-danger"
+          >
+            {{ account.CloseDate ? "Account Closed" : "Close Account" }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="button-container text-right">
+  <button class="open-account-button btn btn-primary" (click)="openAccount()">
+    Open New Account
+  </button>
+</div>

@@ -1,0 +1,72 @@
+.savings-accounts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  margin-left: 120px;
+   max-height: calc(90vh - 90px); 
+  overflow-y: auto; 
+}
+
+.account-card {
+  background-color: #B6D5E7;
+  border-radius: 8px;
+  border-color: silver;
+  padding: 16px;
+  margin-left: 50px;
+  width: calc(40% - 20px);  
+  box-sizing: border-box;
+  border: 3px solid silver;
+  
+}
+
+h2{
+    margin-left: 500px;
+    color: white;
+    font-weight: 50px;
+}
+
+.account-card p {
+  margin: 8px 0;
+}
+
+.account-card button {
+  background-color:var(--color4);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.open-account-button{
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: var(--color4);
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  margin-left: 2.5%;
+  border-radius: 10px;
+  background: var(--color4);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+    -6px -6px 12px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+}
+
+.open-account-button:hover, .account-card button:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.5);
+  background-color: var(--color5);
+}

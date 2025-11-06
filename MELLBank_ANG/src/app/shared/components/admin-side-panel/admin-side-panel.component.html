@@ -1,0 +1,42 @@
+<div class="navbar">
+  <div class="logo">
+    <i class="fas fa-user"></i>
+    <span>Admin</span>
+  </div>
+
+  <ul class="nav-links">
+    <h4>Menu Options</h4>
+    <hr>
+    <li routerLink="/admin" >
+      <i class="fas fa-tachometer-alt"></i>
+      <span>Dashboard</span>
+    </li>
+    <li >
+      <i class="fas fa-file-signature"></i>
+      <span>Transactions</span>
+    </li>
+    <li >
+      <i class="fas fa-file-signature"></i>
+      <span>Manage Accounts</span>
+    </li>
+    <li [routerLink]="[userHome + '/register-customer']" >
+      <i class="fas fa-file-signature"></i>
+      <span>Register new user</span>
+    </li>
+    <li >
+      <i class="fas fa-users"></i>
+      <span>Manage Users</span>
+    </li>
+    <li >
+      <i class="fas fa-user"></i>
+      <span>My Profile</span>
+    </li>
+    <li (click)="logout()">
+      <i class="fas fa-sign-out-alt"></i>
+      <span>Logout</span>
+    </li>
+  </ul>
+  <div class="toggle-btn">
+    <i class="fas fa-bars"></i>
+  </div>
+</div>

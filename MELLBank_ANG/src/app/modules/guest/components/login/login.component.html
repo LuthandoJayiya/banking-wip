@@ -1,0 +1,42 @@
+<app-guest-header></app-guest-header>
+<main>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card mb-5 rounded">
+        <div class="card-body login-form">
+          <h2>MELL Bank Login</h2>
+          <form #loginform="ngForm" class="row g-4 pb-0" autocomplete="off" (submit)="onSubmit(loginform)"
+            method="post">
+            <div class="col-12">
+              <input type="text" class="form-control" #userName="ngModel" [(ngModel)]="userLogin.userName" id="username"
+                name="username" placeholder="Username" autocomplete="username" required minlength="5">
+              <span class="text-danger"
+                *ngIf="userName.errors?.['required'] && userName.invalid && (userName.dirty || userName.touched)">User
+                Name is required.</span>
+              <span class="text-danger"
+                *ngIf="userName.errors?.['minlength'] && userName.invalid && (userName.dirty || userName.touched)">User
+                Name must be at least 5 characters long.</span>
+            </div>
+
+            <div class="col-12">
+              <input type="password" class="form-control" #password="ngModel" [(ngModel)]="userLogin.password"
+                id="password" name="password" placeholder="Password" autocomplete="current-password" required
+                minlength="6">
+              <span class="text-danger"
+                *ngIf="password.errors?.['required'] && password.invalid && (password.dirty || password.touched)">Password
+                is required.</span>
+              <span class="text-danger"
+                *ngIf="password.errors?.['minlength'] && password.invalid && (password.dirty || password.touched)">Password
+                must be at least 6 characters long.</span>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" [disabled]="loginform.invalid" id="login-button" class="btn">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<app-guest-footer></app-guest-footer>

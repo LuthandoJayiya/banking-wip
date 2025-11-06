@@ -1,0 +1,87 @@
+:root {
+    --color1: #b6d5e7; /* Light Blue */
+    --color2: #526b7f; /* Dark Blue */
+    --color3: #3a4f64; /* Grayish Blue */
+    --color4: #387691; /* Teal */
+    --color5: #a9cadc; /* Light Teal */
+    --color6: #c4dff0; /* Lighter Blue */
+  }
+
+  main {
+    background-color: var(--color3);
+    color: var(--color1);
+  }
+
+  .sidebar {
+    height: 100vh;
+  }
+
+  .sidebar .nav-link.active {
+    color: var(--color4);
+  }
+
+  .credit-card {
+    width: 400px;
+    height: 200px;
+    position: relative;
+  }
+
+  .credit-card .chip {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+  .credit-card .tap-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 28%;
+    left: 82px;
+    transform: translateY(-50%);
+    color: var(--color1);
+    font-size: 24px;
+    transform: rotate(90deg);
+  }
+
+  .credit-card .card-number {
+    font-size: 20px;
+    position: absolute;
+    bottom: 25%;
+    left: 20px;
+  }
+
+  .credit-card .card-owner {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-weight: bold;
+  }
+
+  .credit-card .visa-logo {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 60px;
+  }
+  .card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .card-type {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .chart {
+    background-color: var(--color4);
+    color: var(--color1);
+  }
+  .footer{
+    position: relative;
+    top:150px;
+  }
